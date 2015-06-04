@@ -21,4 +21,6 @@ Plug 'vim-scripts/IndexedSearch'
 Plug 'vim-scripts/SmartCase'
 Plug 'vim-scripts/gitignore'
 
+Plug 'Lokaltog/vim-easymotion'
+
 call plug#end()
