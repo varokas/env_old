@@ -23,4 +23,8 @@ Plug 'vim-scripts/gitignore'
 
 Plug 'Lokaltog/vim-easymotion'
 
+Plug 'eiginn/netrw'
+let g:netrw_altfile = 1
+Plug 'tpope/vim-vinegar'
+
 call plug#end()
