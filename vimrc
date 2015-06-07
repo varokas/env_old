@@ -22,6 +22,7 @@ Plug 'vim-scripts/SmartCase'
 Plug 'vim-scripts/gitignore'
 
 Plug 'Lokaltog/vim-easymotion'
+map <Leader> <Plug>(easymotion-prefix)
 
 Plug 'eiginn/netrw'
 let g:netrw_altfile = 1
