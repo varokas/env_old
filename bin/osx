@@ -1,2 +1,6 @@
 brew install vim --override-system-vi
 brew install cmake
+
+brew install zsh
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+chsh -s /bin/zsh
