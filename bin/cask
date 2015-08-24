@@ -10,4 +10,8 @@ brew cask install 1password
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install java
-
+brew cask install spectacle
+brew cask install intellij-idea-ce
+brew cask install ynab
+brew cask install omnifocus
+brew cask install fantastical
