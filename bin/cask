@@ -1,0 +1,13 @@
+# Install brew-cask
+brew install caskroom/cask/brew-cask
+
+# Install brew
+brew install go
+
+# Install Casks
+brew cask install dropbox
+brew cask install 1password
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install java
+
