@@ -15,3 +15,4 @@ brew cask install intellij-idea-ce
 brew cask install ynab
 brew cask install omnifocus
 brew cask install fantastical
+brew cask install crashplan
