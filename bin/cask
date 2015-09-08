@@ -3,6 +3,7 @@ brew install caskroom/cask/brew-cask
 
 # Install brew
 brew install go
+brew install tmux
 
 # Install Casks
 brew cask install dropbox
@@ -17,3 +18,7 @@ brew cask install omnifocus
 brew cask install fantastical
 brew cask install crashplan
 brew cask install google-drive
+brew cask install teamviewer 
+brew cask install skype
+brew cask install flash
+brew cask install vlc
