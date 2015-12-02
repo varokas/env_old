@@ -11,6 +11,7 @@ Set up a new environment in a flash.
 After install, you need to use Plug to install vi extensions. Use :PlugInstall
 
 Then compile YCM
+
     cd ~/.vim/plugged/YouCompleteMe/
     ./install.sh
 
