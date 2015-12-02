@@ -28,4 +28,6 @@ Plug 'eiginn/netrw'
 let g:netrw_altfile = 1
 Plug 'tpope/vim-vinegar'
 
+Plug 'fatih/vim-go'
+
 call plug#end()
