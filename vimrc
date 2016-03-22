@@ -3,11 +3,13 @@ call plug#begin()
 Plug 'kien/ctrlp.vim'
 Plug 'sjl/vitality.vim'
 
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 let g:airline_theme='powerlineish'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 let g:airline_section_z=''
+set laststatus=2
 
 Plug 'terryma/vim-expand-region'
 vmap v <Plug>(expand_region_expand)
