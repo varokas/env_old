@@ -17,4 +17,4 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # Customized
-source "zshrc-custom"
+source ".zshrc-custom"
