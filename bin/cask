@@ -9,7 +9,6 @@ brew install tmux
 brew cask install dropbox
 brew cask install 1password
 brew cask install google-chrome
-brew cask install iterm2
 brew cask install java
 brew cask install spectacle
 brew cask install intellij-idea-ce
@@ -22,3 +21,8 @@ brew cask install teamviewer
 brew cask install skype
 brew cask install flash
 brew cask install vlc
+#brew cask install iterm2
+
+# Install versions
+brew tap caskroom/versions
+brew cask install iterm2-beta
