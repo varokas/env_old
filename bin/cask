@@ -4,6 +4,7 @@ brew install caskroom/cask/brew-cask
 # Install brew
 brew install go
 brew install tmux
+brew install ag
 
 # Install Casks
 brew cask install dropbox
