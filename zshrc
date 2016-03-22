@@ -15,9 +15,3 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-
-runliverpool() {
-	   (cd /Users/vpanusuwan/Documents/projects/liverpool/devtools/liverpool && ./run.py "$1")
-}
-
-alias rl='runliverpool'
