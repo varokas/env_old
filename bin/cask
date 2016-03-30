@@ -12,16 +12,14 @@ brew cask install 1password
 brew cask install google-chrome
 brew cask install java
 brew cask install spectacle
-brew cask install intellij-idea-ce
-brew cask install ynab
-brew cask install omnifocus
+brew cask install intellij-idea-ce 
 brew cask install fantastical
 brew cask install crashplan
 brew cask install google-drive
 brew cask install teamviewer 
 brew cask install skype
-brew cask install flash
 brew cask install vlc
+brew cask install daisydisk
 #brew cask install iterm2
 
 # Install versions
