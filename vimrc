@@ -1,4 +1,34 @@
+syntax enable
+set background=dark
+colorscheme solarized
+
+filetype indent on
+set expandtab           " enter spaces when tab is pressed
+set tabstop=2           " use 4 spaces to represent tab
+set softtabstop=2
+set shiftwidth=2        " number of spaces to use for auto indent
+set autoindent          " copy indent from current line when starting a new line
+
+" make backspaces more powerfull
+set backspace=indent,eol,start
+
+set ruler         " show line and column number
+syntax on         " syntax highlighting
+set showcmd       " show (partial) command in status line
+
+"set number
+set cursorline   
+set showmatch
+
+set wildmenu    "autocomplete filname in command 
+set lazyredraw  
+
+set incsearch   "incremental search
+set hlsearch    "hilight search
+
 call plug#begin()
+
+Plug 'altercation/vim-colors-solarized'
 
 Plug 'kien/ctrlp.vim'
 Plug 'sjl/vitality.vim'
