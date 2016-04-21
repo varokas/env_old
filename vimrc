@@ -1,6 +1,5 @@
 syntax enable
 set background=dark
-colorscheme solarized
 
 filetype indent on
 set expandtab           " enter spaces when tab is pressed
@@ -27,8 +26,6 @@ set incsearch   "incremental search
 set hlsearch    "hilight search
 
 call plug#begin()
-
-Plug 'altercation/vim-colors-solarized'
 
 Plug 'kien/ctrlp.vim'
 Plug 'sjl/vitality.vim'
