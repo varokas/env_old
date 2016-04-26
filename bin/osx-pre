@@ -4,10 +4,10 @@
 
 brew install vim --override-system-vi
 #cmake is for youcompleteme
-brew install cmake
+#brew install cmake
 #ctags is for tagbar
 brew install ctags
 
 brew install zsh
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-chsh -s /bin/zsh
+
+./common-pre

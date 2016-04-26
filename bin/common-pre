@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
+setopt EXTENDED_GLOB
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^readme.md(.n); do
+  if [ $rcfile != zpreztorc ]
+  then
+    ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+  fi   
+done
+
+echo "source ${ZDOTDIR:-$HOME}/.zshrc-common" >> "${ZDOTDIR:-$HOME}/.zshrc"
+echo "source ${ZDOTDIR:-$HOME}/.zshrc-custom" >> "${ZDOTDIR:-$HOME}/.zshrc"
+touch ${ZDOTDIR:-$HOME}/.zshrc-custom
+
+chsh -s /bin/zsh
