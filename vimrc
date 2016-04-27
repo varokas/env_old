@@ -42,7 +42,8 @@ Plug 'terryma/vim-expand-region'
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
 
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
+"Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
+Plug 'Shougo/neocomplete.vim'
 
 Plug 'rking/ag.vim'
 
