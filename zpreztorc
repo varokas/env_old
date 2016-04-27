@@ -37,8 +37,8 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'homebrew' \
   'osx' \
+  'prompt' 
 #  'syntax-highlighting' \ not working for ubuntu over ssh
-  'prompt' \
 
 #
 # Editor
